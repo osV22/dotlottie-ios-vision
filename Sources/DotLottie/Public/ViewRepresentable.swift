@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-#if os(iOS) || os(tvOS)
+#if canImport(UIKit)
+    import UIKit
 protocol ViewRepresentable: UIViewRepresentable {
     associatedtype ViewType = UIViewType
     func makeView(context: Context) -> ViewType

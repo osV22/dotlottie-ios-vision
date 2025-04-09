@@ -46,7 +46,7 @@ Currently this package supports a mimimum iOS version of 13+ for iPhone and iPad
   spec.osx.deployment_target = "11.0"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-  # spec.visionos.deployment_target = "1.0"
+  spec.visionos.deployment_target = "1.0"
 
   spec.source_files = 'Sources/DotLottie/**/*.{swift,h,m}'
 
